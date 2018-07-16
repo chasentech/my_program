@@ -15,6 +15,9 @@ private:
 
 public:
 	void mythreshold(Mat &img, uchar T, bool flag = true);
+	void my_lbp(Mat &img, Mat &out);
+	void my_lbp_circle(Mat &img, Mat &out, int radius, int count);
+
 };
 
 #endif
